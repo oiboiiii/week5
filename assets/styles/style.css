@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(181, 179, 179);
+}
+
+main {
+    width: 70%;
+    height: 50vh;
+    background-color: antiquewhite;
+}
+
+main div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+main div h3 {
+    background-color: peachpuff;
+    height: 70px;
+    width: 200px;
+    padding: 10px 10px;
+    border: 1px solid;
+
+}
+
+
+#first {
+    flex-basis: 450px;
+}
+
+aside {
+    float: right;
+    background-color: rgb(86, 206, 86);
+}
+
+footer {
+    background-color: rgb(181, 179, 179);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    flex-grow: 110px;
+}
+
+footer section {
+    padding: 7px;
+    background-color: lightgray;
+}

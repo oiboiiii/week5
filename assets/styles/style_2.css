@@ -1,0 +1,56 @@
+html {}
+
+.logo {
+    width: 80px;
+
+}
+
+li {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 40px;
+
+}
+
+.menu {
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 80vw;
+    align-items: center
+}
+
+.container span img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.header {
+    margin: 10px 6vw 10px 3vw;
+
+}
+
+.header div {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px 3vw 10px 3vw;
+}
+
+p {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
