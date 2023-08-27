@@ -23,9 +23,17 @@ li {
     align-items: center
 }
 
-.container span img {
-    width: 200px;
-    height: auto;
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+.container div img {
+    width: 350px;
+    height: 100%;
     border: 1px solid #000000;
 }
 
