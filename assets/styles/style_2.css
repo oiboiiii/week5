@@ -8,6 +8,11 @@ html {
 
 }
 
+.logo:hover {
+    opacity: 0.7;
+}
+
+
 li {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 40px;
@@ -58,6 +63,17 @@ li {
 a {
     text-decoration: none;
     color: #000000;
+}
+
+a:hover {
+    color: #000000;
+    opacity: 0.7;
+
+}
+
+a:visited {
+    color: #00000027;
+    text-decoration: none;
 }
 
 
